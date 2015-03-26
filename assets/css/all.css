@@ -210,12 +210,12 @@ hr {
 /* Links
  * ------------------------------------	 */
 a {
-  color: #21a1e1;
+  color: #c99065;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #7bc7ed; }
+  color: #e3c6b1; }
 
 /* Selection colors (easy to forget)
  * ------------------------------------	 */
@@ -243,9 +243,15 @@ body {
   font-family: "Open Sans" sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  color: #e1c184;
+  text-align: center;
+  padding: 100px 0 30px; }
 
-header nav a, header .kicker, footer .lockup .content-wrap a, h3 {
+@media screen and (max-width: 480px) {
+  h3 {
+    padding: 50px 0 50px; } }
+body, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase; }
@@ -316,14 +322,6 @@ footer {
         footer .lockup .content-wrap a:hover {
           color: rgba(0, 0, 0, 0.7); }
 
-h3 {
-  color: #e1c184;
-  text-align: center;
-  padding: 100px 0 30px; }
-
-@media screen and (max-width: 480px) {
-  h3 {
-    padding: 50px 0 50px; } }
 .face-lockup {
   max-width: 780px;
   display: -webkit-box;
@@ -353,9 +351,9 @@ h3 {
   justify-content: space-around;
   -ms-flex-pack: center; }
   .face-lockup .face-img {
+    border-radius: 50%;
     height: 200px;
     width: 200px;
-    background: url(/assets/img/face.jpg);
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
     box-ordinal-group: 3;

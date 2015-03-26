@@ -1,14 +1,3 @@
-h3
-  @extend %small-bold
-  color: $accent-light
-  text-align: center
-  padding: 100px 0 30px
-
-@media screen and (max-width: 480px)
-  h3
-    padding: 50px 0 50px
-
-
 .face-lockup
   max-width: 780px
   +display(flex)
@@ -17,8 +6,8 @@ h3
   +justify-content(space-around)
   
   .face-img
+    border-radius: 50%
     +size(200px)
-    background: url(/assets/img/face.jpg)
     +order(3)
     
   [class^="icon-"]

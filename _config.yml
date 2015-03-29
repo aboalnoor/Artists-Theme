@@ -3,12 +3,13 @@ title: Artists Theme
 description: Thinker // Designer // YouTuber
 email: artist@email
 
+logo: logo.svg
+
+bg-img: hero-bg.jpg
 
 avatar: travitar.jpg
-blurb: <p> <strong>Travis specializes in makingthings</strong> for human people.
-Most of the things he makes are <a href="http://travisneilson.com" target="_blank">digital interfaces</a> , but
-he also puts effort into crafting <a href="http://soundcloud.com/travis-neilson" target="_blank">next-level beats</a> and 
-<a href="http://youtube.com/user/devtipsfordesigners" target="_blank">YouTube videos</a> about making codes happen.</p> 
+
+blurb: <p> <strong>Travis specializes in makingthings</strong> for human people. Most of the things he makes are <a href="http://travisneilson.com" target="_blank">digital interfaces</a>  but he also puts effort into crafting <a href="http://soundcloud.com/travis-neilson" target="_blank">next-level beats</a> and <a href="http://youtube.com/user/devtipsfordesigners" target="_blank">YouTube videos</a> about making codes happen.</p> 
 
 # Build settings 
 markdown: kramdown
